@@ -1,5 +1,79 @@
 {% extends "base.html" %}
 
 {% block content %} 
-           template three
+<div class="container my-5">
+  <div class="row d-flex align-items-center">
+    <h1 class="text-center">Portfolio Page</h1>
+    <p class="text-center">This portfolio page can highlight some of my projects and I can add them all here so people can see all the amazing work I do online as a software developer. 
+      I will also add my contact information here so people can contact me if they have any questions or just want to say hello.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2"> 
+    <div class="col p-1">
+      <img src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image"/>
+     
+    </div>
+    <div class="col p-3">
+      <h3 class="text-center">Portfolio One</h3>
+      <p>It is a website that allows you to search for movies and shows and then you can add them to your favourites list.
+            This is one of my favourite projects and I will tell you for why.
+      </p>
+            <p><i class="bi bi-collection"></i>  Item 1 - I can mention an important project point. </ul></p>
+            <p><i class="bi bi-briefcase"></i>  Item 2 - At least item 2 is in line with what I want.</ui></p>
+            <p><i class="bi bi-hand-index"></i>  Item 3 - I can explain my project here once I know what to say.</ul></p> 
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2"> 
+    <div class="col p-3">
+      <h3 class="text-center">Portfolio Two</h3>
+      <p>It is a website that allows you to search for movies and shows and then you can add them to your favourites list.
+            This is one of my favourite projects and I will tell you for why.
+            <p><i class="bi bi-collection"></i>  Item 1 - I can mention an important project point. </ul></p>
+            <p><i class="bi bi-briefcase"></i>  Item 2 - At least item 2 is in line with what I want.</ui></p>
+            <p><i class="bi bi-hand-index"></i>  Item 3 - I can explain my project here once I know what to say.</ul></p> 
+      </p>
+    </div>
+    <div class="col p-1">
+      <img src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image" />
+     
+    </div>
+  </div>
+</div>
+
+    <!--the second container-->
+<div class="container">
+      <div class="row row-cols-1 row-cols-md-2"> 
+        <div class="col p-1">
+          <img src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image"/>
+         
+        </div>
+        <div class="col p-3">
+          <h3 class="text-center">Portfolio Three</h3>
+          <p>It is a website that allows you to search for movies and shows and then you can add them to your favourites list.
+                This is one of my favourite projects and I will tell you for why.
+          </p>
+                <p><i class="bi bi-collection"></i>Item 1 - I can mention an important project point. </ul></p>
+                <p><i class="bi bi-briefcase"></i>Item 2 - At least item 2 is in line with what I want.</ui></p>
+                <p><i class="bi bi-hand-index"></i>Item 3 - I can explain my project here once I know what to say.</ul></p> 
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2"> 
+        <div class="col p-3">
+          <h3 class="text-center">Portfolio Four</h3>
+          <p>It is a website that allows you to search for movies and shows and then you can add them to your favourites list.
+                This is one of my favourite projects and I will tell you for why.
+                <p><i class="bi bi-collection"></i>Item 1 - I can mention an important project point. </ul></p>
+                <p><i class="bi bi-briefcase"></i>Item 2 - At least item 2 is in line with what I want.</ui></p>
+                <p><i class="bi bi-hand-index"></i>Item 3 - I can explain my project here once I know what to say.</ul></p> 
+          </p>
+        </div>
+        <div class="col p-1">
+          <img src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image" />
+         
+        </div>
+      </div>
+    </div>
 {% endblock %}

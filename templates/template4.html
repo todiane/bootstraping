@@ -1,5 +1,41 @@
 {% extends "base.html" %}
 
 {% block content %} 
-           template four
+          
+
+                          <!-- display 4 notebooks section-->
+                          <section class="py-5 bg-white">
+                            <div class="container px-5 my-5">
+                                <div class="text-center">
+                                    <h2 class="fw-bolder">Template Four</h2>
+                                    <p class="lead fw-normal text-muted mb-5">An area left to highlight something here</p>
+                                </div>
+                                <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                                    <div class="col mb-5 mb-5 mb-xl-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid mb-4 px-4" src="https://images.pexels.com/photos/2832041/pexels-photo-2832041.jpeg" alt="template 1" />
+                                            <a class="btn btn-warning btn-lg px-4 me-sm-3" href="{{ url_for('template1') }}" rel="nofollow">Template 1</a>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-5 mb-5 mb-xl-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid mb-4 px-4" src="https://images.pexels.com/photos/1598073/pexels-photo-1598073.jpeg" alt="template 2" />
+                                            <a class="btn btn-warning btn-lg px-4 me-sm-3" href="{{ url_for('template2') }}" target="_blank" rel="nofollow">Template 2</a>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-5 mb-5 mb-sm-0">
+                                        <div class="text-center">
+                                            <img class="img-fluid mb-4 px-4" src="https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg" alt="template 3" />
+                                            <a class="btn btn-warning btn-lg px-4 me-sm-3" href="{{ url_for('template3') }}" rel="nofollow">Template 3</a>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-5">
+                                        <div class="text-center">
+                                            <img class="img-fluid mb-4 px-4" src="https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg " alt="template 4" />
+                                            <a class="btn btn-warning btn-lg px-4 me-sm-3" href="{{ url_for('template4') }}" target="_blank" rel="nofollow">Template 4</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 {% endblock %}

@@ -1,5 +1,121 @@
 {% extends "base.html" %}
 
 {% block content %} 
-           template one
+         
+
+            <!-- Portfolio section rectangle images start -->
+  <section class="portfolio" id='portfolio'>
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h1 class='fw-bold py-5 mb-5'>My Portfolio - Rectangle Images</h1>
+          </div>
+        </div>
+      </div>    
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="{{url_for('static', filename='images/project1-placeholder.png')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+            <h3 class='text-capitalize fs-5 my-2'>one Project</h3>
+            <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="{{url_for('static', filename='images/project2-placeholder.png')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+            <h3 class='text-capitalize fs-5 my-2'>one Project</h3>
+            <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="{{url_for('static', filename='images/project3-placeholder.png')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+            <h3 class='text-capitalize fs-5 my-2'>Three one Project</h3>
+            <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="{{url_for('static', filename='images/project3-placeholder.png')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+            <h3 class='text-capitalize fs-5 my-2'>Four one Project</h3>
+            <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="{{url_for('static', filename='images/project2-placeholder.png')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+            <h3 class='text-capitalize fs-5 my-2'>bootstrap one Project</h3>
+            <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+          </div>
+        </div>    
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="{{url_for('static', filename='images/project1-placeholder.png')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+            <h3 class='text-capitalize fs-5 my-2'>Final one Project</h3>
+            <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+          </div>
+        </div>                            
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio section end -->
+
+     <!-- Portfolio section square images start -->
+     <section class="portfolio" id='portfolio'>
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h1 class='fw-bold py-5 mb-5'>My Portfolio - Square Images</h1>
+            </div>
+          </div>
+        </div>    
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="{{url_for('static', filename='images/port-project3-placeholder.webp')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+              <h3 class='text-capitalize fs-5 my-2'>one Project</h3>
+              <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="{{url_for('static', filename='images/port-project4-placeholder.webp')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+              <h3 class='text-capitalize fs-5 my-2'>one Project</h3>
+              <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="{{url_for('static', filename='images/port-project5-placeholder.webp')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+              <h3 class='text-capitalize fs-5 my-2'>Three one Project</h3>
+              <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="{{url_for('static', filename='images/port-project5-placeholder.webp')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+              <h3 class='text-capitalize fs-5 my-2'>Four one Project</h3>
+              <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="{{url_for('static', filename='images/port-project4-placeholder.webp')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+              <h3 class='text-capitalize fs-5 my-2'>bootstrap one Project</h3>
+              <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+            </div>
+          </div>    
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="{{url_for('static', filename='images/july23-hackathon-placeholder.webp')}}" class='w-100 img-thumbnail' alt="portfolio-item">
+              <h3 class='text-capitalize fs-5 my-2'>Final one Project</h3>
+              <p class='mb-5'><a href="#" class='text-danger text-decoration-none'>More Details...</a></p>
+            </div>
+          </div>                            
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio section end -->
 {% endblock %}

@@ -1,5 +1,108 @@
 {% extends "base.html" %}
 
 {% block content %} 
-           template two
+
+<div class="container my-5">
+  <div class="row d-flex align-items-center">
+    <h1 class="text-center">Template Two</h1>
+    <p class="text-center">This is an images only portfolio page can highlight some of my projects and I can add them all here so people can see all the amazing work I do online as a software developer. 
+      I will also add my contact information here so people can contact me if they have any questions or just want to say hello.
+    </p>
+  </div>
+</div>
+<!-- Services section start -->
+<div class="services py-2" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-3 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class='fs-5 py-2'>First Option</h3>
+            <p class='text-muted'>This is what I really want to say here. I do my best to remain flexible.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-3 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class='fs-5 py-2'>Second Option</h3>
+            <p class='text-muted'>I wonder if I should say a bit more here but really I want it the same.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-3 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3 class='fs-5 py-2'>Bootstrap 5</h3> 
+            <p class='text-muted'>It really is helpful knowing how to use Bootstrap and it saves time.</p>
+          </div>
+        </div>            
+      </div>
+    </div>
+  </div>
+  <!-- Services section end -->
+
+  <div class="gallery-images">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="gallery-item" data-bs-target="#popup1" data-bs-toggle="modal">
+                    <img alt="Image 1" src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image" />
+                    <div class="overlay">
+                        <h3>Project One</h3>
+                        <p>The work I did</p><a class="btn btn-warning" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="gallery-item" data-bs-target="#popup2" data-bs-toggle="modal">
+                    <img alt="Image 1" src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image" />
+                    <div class="overlay">
+                        <h3>Project Two</h3>
+                        <p>I did more work</p><a class="btn btn-secondary" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="gallery-item" data-bs-target="#popup3" data-bs-toggle="modal">
+                    <img alt="Image 1" src="{{url_for('static', filename='images/moon-sea1.jpg')}}" class="img-fluid" alt="portfolio image" />
+                    <div class="overlay">
+                        <h3>Project Three</h3>
+                        <p>Remeber the css</p><a class="btn btn-warning" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Popup modals -->
+<div class="modal fade" id="popup1">
+    <div class="modal-dialog">
+        <div class="modal-content"><img alt="Image 1" src="{{url_for('static', filename='images/moon-sea1.jpg')}}" ></div>
+    </div>
+</div>
+<div class="modal fade" id="popup2">
+    <div class="modal-dialog">
+        <div class="modal-content"><img alt="Image 2" src="{{url_for('static', filename='images/moon-sea1.jpg')}}"></div>
+    </div>
+</div>
+<div class="modal fade" id="popup3">
+    <div class="modal-dialog">
+        <div class="modal-content"><img alt="Image 3" src="{{url_for('static', filename='images/moon-sea1.jpg')}}"></div>
+    </div>
+</div>
+
+
+
+    
+
 {% endblock %}
