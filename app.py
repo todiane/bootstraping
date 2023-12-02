@@ -27,6 +27,11 @@ def template4():
     return render_template("template4.html")
 
 
+@app.route("/template5")
+def template5():
+    return render_template("template5.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),

@@ -27,3 +27,13 @@ The index page has a full page template and is one I used on [Pen and I Publishi
 
 
 ![index](static/images/indextemplate.webp)
+
+## Bootstrap Examples
+
+You can find loads of Bootstrap examples that you can play around with at
+
+[Tutorial Republic](https://www.tutorialrepublic.com/twitter-bootstrap-examples.php)
+
+[Tutorial Republic Snippets](https://www.tutorialrepublic.com/snippets/gallery.php?page=2 )
+
+They also have a range of snippets 
