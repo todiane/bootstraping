@@ -3,7 +3,9 @@
 A place I use to create different bootstrap templates I might use on my projects. They all use Bootstrap 5 and when I find myself with some time on my hands and/or I want to get away from backend and play with a little front-end, I go through bootstrap and see what I can make.
 
 
-They are all 100% mobile-first, fully responsive sections and I can pick and choose from any of them and put them together to create different looks.
+They are all 100% mobile-first, fully responsive sections and I can pick and choose from any of them and put them together to create different looks. I built some of these templates thanks to YouTube videos
+
+The live website is here: https://bootstraping-1c208b986d1f.herokuapp.com/ 
 
 # For example
 
